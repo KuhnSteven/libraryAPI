@@ -1,0 +1,99 @@
+/* Style Guide*/
+@import 'partials/_extend';
+@import 'partials/_mixin';
+@import 'partials/_variables';
+@import 'partials/_partial1';
+@import 'partials/_partial2';
+
+html {
+	background-color: $primary-color;
+	font-family: $font-stack;
+	header {
+        @include Title-Font;
+        background-color: $tertiary-color;
+        width: 100%;
+	}
+}
+
+#search {
+    width: 400px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 80px;
+}
+
+#searchBtn {
+    border: none;
+    background-color: white;
+    font-size: $standard-font;
+    padding: 4px;
+    margin-top: 75px;
+    height: 25%;
+    width: 25%;
+    cursor: pointer;
+    
+}
+
+header {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	ul {
+		list-style-type: none;
+        margin: 10px;
+        margin-left: 0px;
+    	display: inline-block;
+		li {
+			float: left;
+			padding: 5px;
+			height: 20px auto;
+			width: 40px auto;
+		}
+	}
+}
+
+nav ul li a {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: $standard-font;
+	color: black;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: $secondary-color;
+}
+
+nav ul li a:hover {
+	border: 3px solid black;
+	color: $active-color;
+	}
+.active {
+	border: 1px solid black;
+	color: $active-color;
+}
+
+.message {
+	@extend %pop-ups;
+	border-color: black;
+}
+
+.alert {
+	@extend %pop-ups;
+	border-color: yellow;
+}
+
+.warning {
+	@extend %pop-ups;
+	border-color: red;
+	h2 {
+		font-size: 1.5rem;
+		text-transform: uppercase;
+	}
+}

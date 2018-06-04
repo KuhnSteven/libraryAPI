@@ -1,0 +1,24 @@
+{
+  "name": "libraryapi",
+  "version": "1.0.0",
+  "description": "1806: DWS2 - API Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuhnSteven/libraryAPI.git"
+  },
+  "author": "Steven Kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuhnSteven/libraryAPI/issues"
+  },
+  "homepage": "https://github.com/KuhnSteven/libraryAPI#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

@@ -1,0 +1,36 @@
+/* PARTIAL #1 */
+#form {
+    display: flex;
+    justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+	padding: 5px;
+	text-align: center;
+	background-color: $form-color;
+	font-size: $large-font;
+	}
+
+#results {
+	display: block;
+	margin: 10px;
+	border: 2px solid black;
+	text-align: left;
+	float: left;
+	background-color: $secondary-color;
+	font-size: $standard-font;
+		h1 {
+			font-size: $large-font;
+			margin: 5px;
+		}
+		h2 {
+			font-size: $standard-font;
+			margin: 2px;
+		}
+	}
+
+	article {
+        border: 2px dashed black;
+        background-color: $form-color;
+        margin: 3px;
+	}

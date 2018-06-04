@@ -1,0 +1,134 @@
+/* Style Guide*/
+/* EXTENDS */
+.message, .alert, .warning {
+  border: .4rem, solid, black;
+  padding: .7rem; }
+
+/* MIXINS */
+/* global variables */
+/* PARTIAL #1 */
+#form {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  padding: 5px;
+  text-align: center;
+  background-color: #e3e3e3;
+  font-size: 1.6rem; }
+
+#results {
+  display: block;
+  margin: 10px;
+  border: 2px solid black;
+  text-align: left;
+  float: left;
+  background-color: white;
+  font-size: 1.2rem; }
+  #results h1 {
+    font-size: 1.6rem;
+    margin: 5px; }
+  #results h2 {
+    font-size: 1.2rem;
+    margin: 2px; }
+
+article {
+  border: 2px dashed black;
+  background-color: #e3e3e3;
+  margin: 3px; }
+
+img {
+  border-style: double; }
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0px; }
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  background-color: tan;
+  font-family: "Kannada Sangam MN", Andale Mono, Arial, Calibri; }
+  html header {
+    font-family: "Baskerville Old Face", Candara, Calibri;
+    letter-spacing: -1px;
+    font-size: 3rem;
+    font-weight: 2px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: #626262;
+    width: 100%; }
+
+#search {
+  width: 400px;
+  text-align: center;
+  margin: 5px;
+  margin-top: 80px; }
+
+#searchBtn {
+  border: none;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 4px;
+  margin-top: 75px;
+  height: 25%;
+  width: 25%;
+  cursor: pointer; }
+
+header {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+nav {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px; }
+  nav ul {
+    list-style-type: none;
+    margin: 10px;
+    margin-left: 0px;
+    display: inline-block; }
+    nav ul li {
+      float: left;
+      padding: 5px;
+      height: 20px auto;
+      width: 40px auto; }
+
+nav ul li a {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: white; }
+
+nav ul li a:hover {
+  border: 3px solid black;
+  color: blue; }
+
+.active {
+  border: 1px solid black;
+  color: blue; }
+
+.message {
+  border-color: black; }
+
+.alert {
+  border-color: yellow; }
+
+.warning {
+  border-color: red; }
+  .warning h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase; }
