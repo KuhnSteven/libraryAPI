@@ -9,8 +9,11 @@
 	padding: 5px;
 	text-align: center;
 	background-color: $form-color;
-	font-size: $large-font;
-	}
+    font-size: $large-font;
+    p {
+        margin: 3px;
+    }
+}
 
 #results {
 	display: block;
