@@ -14,18 +14,24 @@ form.addEventListener("submit", e => {
 
     // Create url-path for API
     const query = input.value;
-    const url = `http://openlibrary.org/search.json?q=${query}`;
+        if(query == "")
+        {
+            window.alert("You have entered a blank search query.")
+        }
+        else {
+            const url = `http://openlibrary.org/search.json?q=${query}`;
 
-    // DEBUGGING URL
-    //const url = 'http://openlibrary.org/search.json?q=Iron-Man';
+            // DEBUGGING URL
+            //const url = 'http://openlibrary.org/search.json?q=Iron-Man';
 
-    // FETCH base + query
-    fetch(url)
-        .then(data => data.json())
-        // Code line used for testing in console
-        //	  .then(data => console.log(data))
-        .then(data => displayPage(data))
-        .catch(error => console.log('Error Report:', error));
+            // FETCH base + query
+            fetch(url)
+                .then(data => data.json())
+                // Code line used for testing in console
+                //	  .then(data => console.log(data))
+                .then(data => displayPage(data))
+                .catch(error => console.log('Error Report:', error));
+        }
 })
 
 

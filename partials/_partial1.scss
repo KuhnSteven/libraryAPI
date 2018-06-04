@@ -14,7 +14,6 @@
 #results {
 	display: block;
 	margin: 10px;
-	border: 2px solid black;
 	text-align: left;
 	float: left;
 	background-color: $secondary-color;
@@ -25,7 +24,8 @@
 		}
 		h2 {
 			font-size: $standard-font;
-			margin: 2px;
+            margin: 2px;
+            margin-left: 5px;
 		}
 	}
 
@@ -33,4 +33,8 @@
         border: 2px dashed black;
         background-color: $form-color;
         margin: 3px;
+        p {
+            margin: 0px;
+            margin-left: 5px;
+        }
 	}

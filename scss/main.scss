@@ -10,34 +10,17 @@ html {
 	font-family: $font-stack;
 	header {
         @include Title-Font;
-        background-color: $tertiary-color;
+        //background-color: $tertiary-color;
+        background: linear-gradient($tertiary-color, $primary-color);
+        height: 200px;
         width: 100%;
-	}
-}
-
-#search {
-    width: 400px;
-    text-align: center;
-    margin: 5px;
-    margin-top: 80px;
-}
-
-#searchBtn {
-    border: none;
-    background-color: white;
-    font-size: $standard-font;
-    padding: 4px;
-    margin-top: 75px;
-    height: 25%;
-    width: 25%;
-    cursor: pointer;
-    
-}
-
-header {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	    text-align: center;
+	    margin-left: auto;
+        margin-right: auto;
+        h1 {
+            margin: 5px;
+        }
+    }
 }
 
 nav {
@@ -74,6 +57,31 @@ nav ul li a:hover {
 	border: 3px solid black;
 	color: $active-color;
 	}
+
+
+#search {
+    height: 35px;
+    width: 400px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 73px;
+    border: 3px black solid;
+}
+
+#searchBtn {
+    border: none;
+    background-color: white;
+    font-size: $standard-font;
+    padding: 4px;
+    margin-top: 75px;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 25%;
+    width: 25%;
+    cursor: pointer;
+}
+
+    // Classes
 .active {
 	border: 1px solid black;
 	color: $active-color;

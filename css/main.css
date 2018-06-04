@@ -21,7 +21,6 @@
 #results {
   display: block;
   margin: 10px;
-  border: 2px solid black;
   text-align: left;
   float: left;
   background-color: white;
@@ -31,12 +30,16 @@
     margin: 5px; }
   #results h2 {
     font-size: 1.2rem;
-    margin: 2px; }
+    margin: 2px;
+    margin-left: 5px; }
 
 article {
   border: 2px dashed black;
   background-color: #e3e3e3;
   margin: 3px; }
+  article p {
+    margin: 0px;
+    margin-left: 5px; }
 
 img {
   border-style: double; }
@@ -51,7 +54,7 @@ h2 {
   padding: 0px; }
 
 html {
-  background-color: tan;
+  background-color: #d3c9b3;
   font-family: "Kannada Sangam MN", Andale Mono, Arial, Calibri; }
   html header {
     font-family: "Baskerville Old Face", Candara, Calibri;
@@ -63,29 +66,14 @@ html {
     margin-right: auto;
     width: 50%;
     text-align: center;
-    background-color: #626262;
-    width: 100%; }
-
-#search {
-  width: 400px;
-  text-align: center;
-  margin: 5px;
-  margin-top: 80px; }
-
-#searchBtn {
-  border: none;
-  background-color: white;
-  font-size: 1.2rem;
-  padding: 4px;
-  margin-top: 75px;
-  height: 25%;
-  width: 25%;
-  cursor: pointer; }
-
-header {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
+    background: linear-gradient(#626262, #d3c9b3);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    html header h1 {
+      margin: 5px; }
 
 nav {
   text-align: center;
@@ -116,6 +104,26 @@ nav ul li a {
 nav ul li a:hover {
   border: 3px solid black;
   color: blue; }
+
+#search {
+  height: 35px;
+  width: 400px;
+  text-align: center;
+  margin: 5px;
+  margin-top: 73px;
+  border: 3px black solid; }
+
+#searchBtn {
+  border: none;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 4px;
+  margin-top: 75px;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 25%;
+  width: 25%;
+  cursor: pointer; }
 
 .active {
   border: 1px solid black;
