@@ -36,8 +36,8 @@ nav {
 		li {
 			float: left;
 			padding: 5px;
-			height: 20px auto;
-			width: 40px auto;
+			height: 20px;
+			width: 40px;
 		}
 	}
 }
@@ -83,7 +83,7 @@ nav ul li a:hover {
 
     // Classes
 .active {
-	border: 1px solid black;
+	border-style: 1px solid black;
 	color: $active-color;
 }
 
