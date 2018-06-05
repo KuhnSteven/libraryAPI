@@ -83,7 +83,9 @@ nav ul li a:hover {
 
     // Classes
 .active {
-	border-style: 1px solid black;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
 	color: $active-color;
 }
 
