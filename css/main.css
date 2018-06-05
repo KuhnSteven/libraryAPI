@@ -1,7 +1,7 @@
 /* Style Guide*/
 /* EXTENDS */
 .message, .alert, .warning {
-  border: .4rem, solid, black;
+  border-style: .4rem, solid, black;
   padding: .7rem; }
 
 /* MIXINS */
